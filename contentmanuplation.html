@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="text/javascript" src="./jquery.min.js"></script>
+        <title>USING HTML() IN JQUERY</title>
+        <script>
+           $(documnet).ready(function()
+           {
+               $("#button").click(function()
+               {
+               var content=$(this).html();
+                $("#span").text(content);
+           });
+        });
+        </script>
+         <style>
+                #button
+                {  
+                  margin:10px;
+                  padding:12px; 
+                  border:2px solid black;
+                  width:60px;
+                 }
+        </style>
+    </head>
+    <body>
+        <p>CLICK IN THE BELOW BUTTON:-</p> <span id="span"></span>
+        <div id="button" style="background-color: aqua;">Thanks for clicking the box</div>
+    </body>
+</html>

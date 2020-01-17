@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <title>USING ADDCLASS METHOD OF JQUERY</title>
+        <script>
+            $(document).ready(function()
+            {
+                var title=$("em").attr("title");
+                $("#p2").text(title);
+                $("em").addClass("first");
+                $("#p").addClass("second");
+                $("#p2").addClass("third");
+            })
+        </script>
+        <style>
+            .first { color:aqua}
+            .second { color:blue}
+            .third { color:brown}
+        </style>
+    </head>
+    <body>
+        <em title="Hi Pratham Tewari">HELLO USERS</em>
+        <p id="p">PLEASE HAVE A SEAT</p>
+        <p id="p2"></p>
+    </body>
+</html>

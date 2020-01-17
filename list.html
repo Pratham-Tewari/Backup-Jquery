@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <title>USING JQUERY IN LIST</title>
+        <script>
+            $(document).ready(function()
+            {
+                $("li").eq(2).addClass("change");
+            })
+        </script>
+        <style>
+           .change { color: red;}
+        </style>
+    </head>
+    <body>
+        <h1>LIST OF CARS AS FOLLOWS:-</h1>
+        <div>
+            <ul>
+                <li>Audi</li>
+                <li>BMW</li>
+                <li>Ferari</li>
+                <li>Porsce</li>
+                <li>Rang-Rover</li>
+                <li>Land-Rover</li>
+            </ul>
+        </div>
+    </body>
+</html>

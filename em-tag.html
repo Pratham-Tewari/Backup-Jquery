@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <title>USING EM-TAG </title>
+        <script>
+            $(document).ready(function()
+            {
+                var title=$("em").attr("title");
+                $("#myid").text(title);
+                $("div").css("text-align","center");
+                $("div").css("color","green");
+                $("#p").css("font-size","20px");
+                $("#myid").css("font-size","40px");
+            });
+        </script>
+    </head>
+    <body>
+        <div>
+            <em title="Hi Pratham Tewari">WELCOME TO MY PAGE</em>
+            <p id="p">GOOD MORNING USER</p>
+            <div id="myid"></div>
+        </div>
+    </body>
+</html>

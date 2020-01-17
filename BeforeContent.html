@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="text/javascript" src="./jquery.min.js"></script>
+        <title>USING BEFORE TAG IN JQUERY </title>
+        <script>
+        $(document).ready(function()
+        {
+            $("div").addClass("Selector");
+            $("div").click(function()
+            {
+              $(this).before('<div class="div"></div>');
+            });
+        });
+        
+        </script>
+        <style>
+            .Selector { color: chartreuse;}
+            .Selector { font-size: 20px;}
+        </style>
+    </head>
+    <body>
+        <p>USING BEFORE TAG IN JQUERY</p>
+        <div class="div">First Line</div>
+        <div class="div">Second Line</div>
+        <div class="div">Third Line</div>
+    </body>
+</html>

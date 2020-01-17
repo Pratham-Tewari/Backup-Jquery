@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <title>USING REMOVE TAG IN JQUERY</title>
+        <script>
+        $(document).ready(function()
+        {
+            $("div").addClass("changes");
+            $("div").click(function()
+            {
+              $(this).remove( );
+            });
+        });
+        
+        </script>
+        <style>
+        .changes {color:aqua;}
+        .changes { font-size: 20px;}        
+        </style>
+    </head>
+    <body>
+        <p>CLICK ON BELOW TEXT TO SEE MAGIC</p>
+        <div class="div">Hi Pratham </div>
+        <div class="div">Hi Kushal</div>
+        <div class="div">Hi Vikyath</div>
+    </body>
+</html>

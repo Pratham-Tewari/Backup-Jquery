@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <title>USING FILTER METHOD IN JQUERY</title>
+        <script>
+        $(document).ready(function()
+        {
+          $("li").filter(".First").addClass("Selected");
+        });
+        </script>
+        <style>
+         .Selected {color:red;}
+        </style>
+    </head>
+    <body>
+    <h1>NAMES ARE GIVEN BELOW:-</h1>
+    <div>
+        <ul>
+            <li class="First">Pratham</li>
+            <li class="First">Kushal</li>
+            <li class="Second">Mansi</li>
+            <li class="First">Arif</li>
+            <li class="Second">Yukta</li>
+        </ul>
+    </div>    
+    
+    </body>
+</html>
